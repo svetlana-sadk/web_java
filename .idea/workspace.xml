@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e5754e3-fd32-4be0-872e-6e62d4b1978d" name="Default Changelist" comment="" />
+    <list default="true" id="1e5754e3-fd32-4be0-872e-6e62d4b1978d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/webjava/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/webjava/controller/RedirectionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/target.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/webjava/controller/SimpleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/webjava/controller/SimpleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/webjava/controller/SimpleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/webjava/controller/SimpleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web_java.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/web_java.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web_java/WEB-INF/classes/org/example/webjava/controller/SimpleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web_java/WEB-INF/classes/org/example/webjava/controller/SimpleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web_java/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/web_java/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +29,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1eOcb2Hrdp0Np9vxz7GMkPNVLOG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/apache-tomcat-9.0.37/lib/servlet-api.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -46,33 +66,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1594196801749" />
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1594197363910">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="-1251" y="120" width="390" height="544" key="#com.intellij.ide.util.MemberChooser" timestamp="1594215649119">
+      <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
+    <state x="-1251" y="120" width="390" height="544" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1594215649119" />
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1594197363910" />
     <state x="348" y="83" key="FileChooserDialogImpl" timestamp="1594196737345">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="348" y="83" key="FileChooserDialogImpl/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1594196737345" />
-    <state width="1877" height="211" key="GridCell.Tab.0.bottom" timestamp="1594209486785">
+    <state width="1877" height="211" key="GridCell.Tab.0.bottom" timestamp="1594219490396">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1594209486785" />
+    <state width="1877" height="211" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1594219490396" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1594196260863" />
-    <state width="1877" height="211" key="GridCell.Tab.0.center" timestamp="1594209486785">
+    <state width="1877" height="211" key="GridCell.Tab.0.center" timestamp="1594219490396">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1594209486785" />
+    <state width="1877" height="211" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1594219490396" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1594196260863" />
-    <state width="1877" height="211" key="GridCell.Tab.0.left" timestamp="1594209486785">
+    <state width="1877" height="211" key="GridCell.Tab.0.left" timestamp="1594219490396">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1594209486785" />
+    <state width="1877" height="211" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1594219490396" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1594196260863" />
-    <state width="1877" height="211" key="GridCell.Tab.0.right" timestamp="1594209486785">
+    <state width="1877" height="211" key="GridCell.Tab.0.right" timestamp="1594219490396">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1594209486785" />
+    <state width="1877" height="211" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1594219490396" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.7.1920.1040@0.0.1280.680" timestamp="1594196260863" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1594196532539">
       <screen x="0" y="0" width="1280" height="680" />

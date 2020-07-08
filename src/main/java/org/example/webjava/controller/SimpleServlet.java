@@ -1,5 +1,7 @@
 package org.example.webjava.controller;
 
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -17,9 +19,6 @@ public class SimpleServlet extends HttpServlet {
 
         PrintWriter out = resp.getWriter();
         out.println("<h1>" + TEST_MESSAGE + "</h1>");
-
-
     }
-
 
 }
