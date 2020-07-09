@@ -13,11 +13,6 @@ public class RedirectionEchecServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String pseudo = req.getParameter("pseudo");
-
-        final ServletContext servletContext = req.getServletContext();
-        final RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher("./target.jsp");
-        requestDispatcher.forward(req, resp);
 
     }
 

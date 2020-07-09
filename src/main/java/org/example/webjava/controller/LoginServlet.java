@@ -14,19 +14,33 @@ import java.io.PrintWriter;
 public class LoginServlet extends HttpServlet {
 
     @Override
+    public void init() throws ServletException {
+        super.init();
+    }
+
+    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
 
-        /*String pseudo = req.getParameter("pseudo");
+        String pseudo = req.getParameter("pseudo");
         req.setAttribute("pseudo_attribute_name", pseudo);
-        */
 
         Journaliste journaliste = new Journaliste();
-        journaliste.setName("Reporter 1");
+        String jName = "Reporter 1";
+        journaliste.setName(jName);
+        journaliste.setId(1);
         req.setAttribute("journaliste", journaliste);
 
         final ServletContext servletContext = req.getServletContext();
-        final RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher("/target.jsp");
+        final RequestDispatcher requestDispatcher;
+
+        if (jName.equals(pseudo)) {
+            requestDispatcher = servletContext.getRequestDispatcher("/WEB-INF/jsp/dashboard.jsp");
+        } else {
+            requestDispatcher = servletContext.getRequestDispatcher("/WEB-INF/jsp/echec.jsp");
+
+        }
+
         requestDispatcher.forward(req, resp);
 
         //PrintWriter out = resp.getWriter();
