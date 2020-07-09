@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class RedirectionServlet extends HttpServlet {
+public class RedirectionEchecServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -16,7 +16,7 @@ public class RedirectionServlet extends HttpServlet {
         String pseudo = req.getParameter("pseudo");
 
         final ServletContext servletContext = req.getServletContext();
-        final RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher("/WEB-INF/target.jsp");
+        final RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher("./target.jsp");
         requestDispatcher.forward(req, resp);
 
     }

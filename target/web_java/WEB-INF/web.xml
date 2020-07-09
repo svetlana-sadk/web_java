@@ -22,7 +22,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>redirection-servlet</servlet-name>
-    <servlet-class>org.example.webjava.controller.RedirectionServlet</servlet-class>
+    <servlet-class>org.example.webjava.controller.RedirectionEchecServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>redirection-servlet</servlet-name>
